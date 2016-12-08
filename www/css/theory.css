@@ -120,14 +120,21 @@ code { background-color: #eddbb9; }
 
 @media (min-width: 750px) {
 
+.menuparent {
+  overflow: visible;
+}
+
 .menu {
+  width: 100%;
   display: block;
   position: sticky;
   position: -webkit-sticky;
-  top: 0;
+  top: 0px;
   text-align: center;
-  background-color: #eddbb9;
-  /*border-bottom: 1px solid #7d4735;*/
+  background-color: #e1ccab;
+  /*background-color: #eddbb9;*/
+  z-index: 10;
+  opacity: 0.9;
   padding: 10px 0;
   margin: 0;
 }
