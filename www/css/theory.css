@@ -89,6 +89,7 @@ div.arrow-down {
 
 dl.info dt { float: left; padding-right: 0.5em; font-weight: bold; }
 dl.info dd { margin: 0; }
+dl.info p { font-style: italic; margin: 10px 0 0 0; }
 
 h1 { padding-top: 40px; }
 
