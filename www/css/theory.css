@@ -13,6 +13,8 @@ body {
 a:link { color: #61806a; } 
 a:visited { color: #7d4735; }
 
+a.old { font-size: 12px; }
+
 h1, h2, h3, h4, h5, h6 { 
   font-family: 'Roboto Slab', serif;
   color: #7d4735;
